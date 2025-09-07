@@ -1,6 +1,7 @@
 BASE_URL = 'http://192.168.1.20:8080'
-INSTANCE_NAME = 'zabbixcentral_bkp'
+INSTANCE_NAME = 'nome da estacia'
 EVOLUTION_AUTHENTICATION_API_KEY = 'password'
+import requests
 
 headers = {
     'apikey': EVOLUTION_AUTHENTICATION_API_KEY,
